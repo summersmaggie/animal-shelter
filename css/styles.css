@@ -1,5 +1,6 @@
 .column p {
-  color:white
+  color:white;
+  font-family: 'Lora', serif;
 }
 
 body {
@@ -9,5 +10,18 @@ body {
 
 h1, h2 {
   color:white;
+  font-family: 'Slabo 27px', serif;
+}
 
+.sidebar {
+  border: solid 5px white;
+  background-color: white;
+  width:25%;
+  align-items: center;
+  border-radius:25%;
+}
+
+.sidebar ul {
+  list-style-type:none;
+  text-align:left;
 }
